@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,400&family=Great+Vibes&family=Lobster+Two:ital,wght@1,700&family=Open+Sans&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo span {
+  font-family: "Great Vibes";
+  font-size: 3rem;
+  font-weight: 550;
+  font-style: italic;
+}
+
+.menu h1 {
+  font-family: "Great Vibes";
+}
