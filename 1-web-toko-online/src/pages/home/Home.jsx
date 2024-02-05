@@ -1,49 +1,66 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
       <div>
-        <div className="relative z-20 flex flex-wrap items-center overflow-hidden bg-white dark:bg-gray-800">
-          <div className="container relative flex px-6 py-16 mx-auto">
-            <div className="relative z-20 flex flex-col sm:w-2/3 lg:w-2/5">
-              <span className="w-20 h-2 mb-12 bg-blue-300 dark:bg-white"></span>
-              <h1 className="flex flex-col text-6xl font-black leading-none text-blue-600 uppercase font-bebas-neue sm:text-8xl dark:text-white">
-                Pijakan
-                <span className="text-5xl text-blue-300 sm:text-7xl">
-                  Duniamu
-                </span>
-              </h1>
-              <p className="text-sm text-gray-700 sm:text-base dark:text-white">
-                Dimension of reality that makes change possible and
-                understandable. An indefinite and homogeneous environment in
-                which natural events and human existence take place.
-              </p>
-              <div className="flex mt-8">
-                <a
-                  href="#"
-                  className="px-4 py-2 mr-4 text-white uppercase bg-blue-500 border-2 border-transparent rounded-lg text-md hover:bg-blue-300"
-                >
-                  Shopping!
-                </a>
-                {/* <a
-                  href="#"
-                  className="px-4 py-2 text-blue-500 uppercase bg-transparent border-2 border-blue-300 rounded-lg dark:text-white hover:bg-blue-300 hover:text-white text-md"
-                >
-                  Read more
-                </a> */}
+        <section id="home" className=" pt-2">
+          <div className="container">
+            <div className="flex flex-wrap">
+              <div className="w-full  items-center px-3 lg:w-1/2">
+                <div className="mt-20">
+                  <h1 className="text-2xl font-bold  text-blue-300 lg:text-4xl ">
+                    Pilih
+                    <span className="font-bold text-5xl text-blue-500 block lg:text-6xl">
+                      Pijakan Duniamu
+                    </span>{" "}
+                  </h1>
+
+                  <p className="mb-8 mt-4">
+                    <span className="text-gray-700 font-medium">
+                      pijakanmu menjadi penyelamatmu !
+                    </span>
+                  </p>
+                  <Link
+                    to="/shopping"
+                    className="text-base  text-white bg-blue-500 border border-gray-300 py-3 px-8 rounded-2xl hover:shadow-lg hover:bg-blue-300 transition duration-200 mt-15"
+                  >
+                    Shopping!
+                  </Link>
+                </div>
+              </div>
+
+              <div className="w-full self-end px-4 lg:w-1/2">
+                <div className=" relative mt-12 lg:mt-0 lg:right-0">
+                  <img
+                    src="../public/sneakers2.jpg"
+                    className=" max-w-full flex items-end mx-auto rounded-full w-[400px] h-[400px]"
+                    alt="ghmngh"
+                  />
+                </div>
               </div>
             </div>
-            <div className="relative hidden sm:block sm:w-1/3 lg:w-3/5">
-              <img
-                src="../public/sneakers2.jpg"
-                className="max-w-xs m-auto md:max-w-sm"
-              />
-            </div>
           </div>
-        </div>
+        </section>
       </div>
     </div>
+    // <div>
+    //   <div className="flex flex-wrap mt-10">
+    //     <div className="border w-[50%] ">
+    //       <div className=" items-center">
+    //         <h1>Pilih</h1>
+    //         <h2>Pijakan Duniamu</h2>
+    //       </div>
+    //     </div>
+    //     <div className="border w-[50%]">
+    //       <img
+    //         src="../public/sneakers2.jpg"
+    //         className=" mx-auto w-[350px] h-[350px]"
+    //       />
+    //     </div>
+    //   </div>
+    // </div>
   );
 };
 

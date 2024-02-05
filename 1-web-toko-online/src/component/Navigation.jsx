@@ -18,7 +18,7 @@ const Navigation = () => {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/shopping">Shopping</Link>
           <Link to="/contact">Contact</Link>
         </Navbar.Collapse>

@@ -19,7 +19,7 @@ const RouteComponent = () => {
             }
           />
           <Route
-            path="/home"
+            path="/"
             element={
               <LayoutLanding>
                 <Home />
