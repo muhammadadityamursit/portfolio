@@ -4,6 +4,7 @@ import Shopping from "../pages/shopping/Shopping";
 import Home from "../pages/home/Home";
 import Contact from "../pages/contact/Contact";
 import LayoutLanding from "../widget/LayoutLanding";
+import Login from "../component/Login";
 
 const RouteComponent = () => {
   return (
@@ -31,6 +32,14 @@ const RouteComponent = () => {
             element={
               <LayoutLanding>
                 <Contact />
+              </LayoutLanding>
+            }
+          />
+          <Route
+            path="/login"
+            element={
+              <LayoutLanding>
+                <Login />
               </LayoutLanding>
             }
           />

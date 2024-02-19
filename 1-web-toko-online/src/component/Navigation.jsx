@@ -21,6 +21,7 @@ const Navigation = () => {
           <Link to="/">Home</Link>
           <Link to="/shopping">Shopping</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/login">Login</Link>
         </Navbar.Collapse>
       </Navbar>
       {/* <div>
