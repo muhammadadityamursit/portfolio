@@ -4,15 +4,15 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-      <div>
+      <div className="border">
         <section id="home" className=" pt-2">
           <div className="container">
             <div className="flex flex-wrap">
               <div className="w-full  items-center px-3 lg:w-1/2">
-                <div className="mt-20">
-                  <h1 className="text-2xl font-bold  text-blue-300 lg:text-4xl ">
+                <div className="mt-20 border hover:transition ">
+                  <h1 className="text-2xl font-bold  text-blue-300 lg:text-4xl  ">
                     Pilih
-                    <span className="font-bold text-5xl text-blue-500 block lg:text-6xl">
+                    <span className="font-bold text-5xl text-blue-500 block lg:text-6xl hover:transition ease-out duration-700">
                       Pijakan Duniamu
                     </span>{" "}
                   </h1>

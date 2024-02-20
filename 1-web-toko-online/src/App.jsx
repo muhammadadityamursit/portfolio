@@ -6,7 +6,7 @@ import RouteComponent from "./router/RouteComponent";
 
 const App = () => {
   return (
-    <div>
+    <div className="border">
       {/* <Navigation />
       <Hero />
       <Footer />

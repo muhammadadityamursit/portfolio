@@ -18,10 +18,30 @@ const Navigation = () => {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Link to="/">Home</Link>
-          <Link to="/shopping">Shopping</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/login">Login</Link>
+          <Link
+            className="px-2 rounded-md  hover:bg-blue-200 hover:text-white hover:transition ease-out duration-700 "
+            to="/"
+          >
+            Home
+          </Link>
+          <Link
+            className="px-2 rounded-md  hover:bg-blue-200 hover:text-white hover:transition ease-out duration-700 "
+            to="/shopping"
+          >
+            Shopping
+          </Link>
+          <Link
+            className="px-2 rounded-md  hover:bg-blue-200 hover:text-white hover:transition ease-out duration-700 "
+            to="/contact"
+          >
+            Contact
+          </Link>
+          <Link
+            className="px-2 rounded-md  hover:bg-blue-200 hover:text-white hover:transition ease-out duration-700 "
+            to="/login"
+          >
+            Login
+          </Link>
         </Navbar.Collapse>
       </Navbar>
       {/* <div>
